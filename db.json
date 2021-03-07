@@ -1,14 +1,91 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "Sections":
+    [
+        {
+            "sectionTile": "Group One",
+            "sectionOrder": 1,
+            "fields":
+            [
+                {
+                    "fieldType": "TextView",
+                    "fieldOrder": 1,
+                    "title": "Question 1 lorem ipsum dolor sit amet, consectetur adipiscing elit sed vel sapien consectetur metus cursus dapibus?",
+                    "description": "Optional Desccription for the Question Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed elementum felis. Sed vel sapien consectetur metus cursus dapibus. Duis vitae lobortis odio. Vivamus sit amet quam enim. ",
+                    "placeholderText": "Text Area Placeholder",
+                    "isMandatory": true
+                },
+                {
+                    "fieldType": "TextFieldWithTextInput",
+                    "fieldOrder": 2,
+                    "title": "Question 1 lorem ipsum dolor sit amet, consectetur adipiscing elit sed vel sapien consectetur metus cursus dapibus?",
+                    "description": "Optional Desccription for the Question Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed elementum felis. Sed vel sapien consectetur metus cursus dapibus. Duis vitae lobortis odio. Vivamus sit amet quam enim. ",
+                    "placeholderText": "Text Area Placeholder",
+                    "isMandatory": true
+                },
+                {
+                    "fieldType": "TextFieldWithNumbersInput",
+                    "fieldOrder": 3,
+                    "title": "Question 1 lorem ipsum dolor sit amet, consectetur adipiscing elit sed vel sapien consectetur metus cursus dapibus?",
+                    "description": "Optional Desccription for the Question Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed elementum felis. Sed vel sapien consectetur metus cursus dapibus. Duis vitae lobortis odio. Vivamus sit amet quam enim. ",
+                    "placeholderText": "Text Area Placeholder",
+                    "isMandatory": true
+                }
+            ]
+        },
+        {
+            "sectionTile": "Group Two",
+            "sectionOrder": 2,
+            "fields":
+            [
+                {
+                    "fieldType": "DatePickerView",
+                    "fieldOrder": 1,
+                    "title": "Question 1 lorem ipsum dolor sit amet, consectetur adipiscing elit sed vel sapien consectetur metus cursus dapibus?",
+                    "description": "",
+                    "placeholderText": "",
+                    "isMandatory": true
+                },
+                {
+                    "fieldType": "RadioButtonView",
+                    "fieldOrder": 2,
+                    "title": "Single Selection lorem ipsum dolor sit amets?",
+                    "description": "Optional Desccription for the Question Lorem ipsum dolor sit amet.",
+                    "placeholderText": "Text Area Placeholder",
+                    "isMandatory": true
+                }
+            ]
+        },
+        {
+            "sectionTile": "Group Three",
+            "sectionOrder": 3,
+            "fields":
+            [
+                {
+                    "fieldType": "DatePickerView",
+                    "fieldOrder": 1,
+                    "title": "Question 1 lorem ipsum dolor sit amet, consectetur adipiscing elit sed vel sapien consectetur metus cursus dapibus?",
+                    "description": "",
+                    "placeholderText": "",
+                    "isMandatory": true
+                },
+                {
+                    "fieldType": "CheckBoxView",
+                    "fieldOrder": 2,
+                    "title": "Multiple Selection lorem ipsum dolor sit amets?",
+                    "description": "Optional Desccription for the Question Lorem ipsum dolor sit amet.",
+                    "placeholderText": "",
+                    "isMandatory": true
+                },
+                {
+                    "fieldType": "SimpleText",
+                    "fieldOrder": 3,
+                    "title": "Additional Information",
+                    "description": "",
+                    "placeholderText": "Text Area Placeholder",
+                    "isMandatory": false
+                }
+            ]
+        }
+    ]
 }
+
